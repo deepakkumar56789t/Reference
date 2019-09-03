@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LocLease" parallel="classes" thread-count="2">
+ <test name="US 138906">
+     <groups>
+     <dependencies>
+     <group name="Cars" depends-on="Scooter Sedan"/>
+     <group name="Scooter" depends-on="Sedan"/>
+     </dependencies>
+     </groups>
+		<parameter name="author" value="Poonam Pandey" />
+		<parameter name="reciever" value="Gautam galotia" />
+		<classes>
+			<class name="main.NewUserStories.DependenciesClass" />
+			
+		</classes>
+	</test>	
+	<test name="US 138907">
+	<classes>
+	<class name="main.NewUserStories.MyClass" />
+	</classes>
+	</test> 
+	
+</suite> <!-- Suite -->

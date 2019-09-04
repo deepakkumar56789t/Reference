@@ -52,13 +52,8 @@
                  <!--  <environment>${level}</environment> --><!-- 15May changes -->
                </systemPropertyVariables>
                <suiteXmlFiles>
-              <!-- <suiteXmlFile>src/test/resources/DataProvider.xml</suiteXmlFile>-->
-                 <suiteXmlFile>src/test/resources/NewFile.xml</suiteXmlFile>
-                  <suiteXmlFile>src/test/resources/Parallel.xml</suiteXmlFile>
-                   <suiteXmlFile>src/test/resources/Testing.xml</suiteXmlFile>
-                   <suiteXmlFile>src/test/resources/webTable.xml</suiteXmlFile>
-                  <suiteXmlFile>src/test/resources/Dependencies.xml</suiteXmlFile>
-               </suiteXmlFiles>
+                 <suiteXmlFile>src/test/resources/webTable.xml</suiteXmlFile>
+                </suiteXmlFiles>
             </configuration>
          </plugin>
       </plugins>

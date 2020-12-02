@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LocLease]">
+  <test name="US 1389(failed)">
+    <classes>
+      <class name="main.NewUserStories.WebTable">
+        <methods>
+          <include name="automateWebTable"/>
+        </methods>
+      </class> <!-- main.NewUserStories.WebTable -->
+    </classes>
+  </test> <!-- US 1389(failed) -->
+</suite> <!-- Failed suite [LocLease] -->
